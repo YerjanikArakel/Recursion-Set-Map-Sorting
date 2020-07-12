@@ -3,12 +3,19 @@
  * @param {number} n
  * @returns {boolean}
  */
+const number_1 = 4211133;
+const number_2 = 7791;
+const number_3 = 5;
 
 const oddFunc = (n) => {
+  if (n === 0) {
+    return false;
+  }
   function inner(n) {
     if (n === 0) {
       return true;
     }
+
     if (n % 2 === 0) {
       return false;
     }
@@ -18,4 +25,6 @@ const oddFunc = (n) => {
   return inner(n);
 };
 
-console.dir(oddFunc("315642313841"));
+console.dir(oddFunc(number_1));
+console.dir(oddFunc(number_2));
+console.dir(oddFunc(number_3));
