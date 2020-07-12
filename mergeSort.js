@@ -1,3 +1,10 @@
+/**
+ * Function that realize Merge Sorting
+ * @param {array} arr
+ * @function mergeSort - makes merge sorting without change our first arr
+ * @function merge @param {array, array} - makes final sorted array
+ */
+
 function mergeSort(arr) {
   if (arr.length <= 1) {
     return arr;
