@@ -1,3 +1,9 @@
+/**
+ *
+ * @param {Array} arr
+ * @function nestedArrConvert - take a nested array and returns one level array
+ */
+
 function nestedArrConvert(arr) {
   function arrConvert(arr, res) {
     if (arr.length === 0) {
