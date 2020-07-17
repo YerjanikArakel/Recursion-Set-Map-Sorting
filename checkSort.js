@@ -1,3 +1,9 @@
+/**
+ *
+ * @param {Array} arr
+ * @function checkSort - check if our array is sorted returns "-1" if no returns index from where it breakes
+ */
+
 function checkSort(arr) {
   function lastCheck(arr, indx) {
     if (arr.length === 1) {
