@@ -1,3 +1,8 @@
+/**
+ *
+ * @param {Array} arr
+ * @function shiftRec - remove first element from array and return it back
+ */
 function shiftRec(arr) {
   function removeFirst(arr) {
     const [first, ...rest] = arr;
